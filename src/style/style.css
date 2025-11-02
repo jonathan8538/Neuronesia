@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+    --font-Montserrat : Montserrat, 'sans-serif';
+    --font-Roboto : Roboto, 'sans-serif';
+    --font-Poppins : Poppins, 'sans-serif';
+}
+
+.tutorial-highlight {
+  animation: pulse-highlight 2s infinite;
+}
+
+@keyframes pulse-highlight {
+  0% {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5), 0 0 20px rgba(59, 130, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(59, 130, 246, 0.7), 0 0 30px rgba(59, 130, 246, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5), 0 0 20px rgba(59, 130, 246, 0.3);
+  }
+}

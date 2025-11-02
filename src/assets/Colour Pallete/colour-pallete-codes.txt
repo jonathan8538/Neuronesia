@@ -1,0 +1,4 @@
+Grey : #5B5A60
+Light-Green : #DEE4E2
+Mid-light-Green : #AFC7BA
+Dark-Green : #739A88

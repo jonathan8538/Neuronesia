@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "sender": "bot",
+    "message": "Hello! How can I help you today?"
+  },
+  {
+    "id": 2,
+    "sender": "user",
+    "message": "I need some assistance with my account."
+  },
+  {
+    "id": 3,
+    "sender": "bot",
+    "message": "Sure! Could you provide more details about the issue?"
+  }
+]
