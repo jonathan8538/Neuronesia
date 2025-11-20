@@ -7,9 +7,5 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
     rollupOptions: {}
-  },
-  // Force Vite to disable native Rollup binaries
-  experimental: {
-    disableRollupNative: true
   }
 })
